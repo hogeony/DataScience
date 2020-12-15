@@ -1,3 +1,5 @@
+# micro, macro, weighted => https://datascience.stackexchange.com/questions/40900/whats-the-difference-between-sklearn-f1-score-micro-and-weighted-for-a-mult
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
