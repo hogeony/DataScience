@@ -21,3 +21,7 @@ t – viewing content of archive file.
 j – filter archive through bzip2.
 z – filter archive through gzip.
 r – append or update files or directories to existing archive file.
+
+# manage permission
+sudo chown <user>:<group> filename
+sudo chown <user>:<group> *
