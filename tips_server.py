@@ -1,6 +1,9 @@
 # size for each folder
 du -sh *
 
+# check left size
+df -Th
+
 # copy folder/data form server A to server B
 tar -cp <relative copy folder path in server A> | ssh <USERID@server B IP> -p <ssh port> tar xvp -C <aboslute destination path in server B>
 ex) tar -cp test | ssh smile@123.123.123.123 -p 1234 tar xvp -C /data/test
