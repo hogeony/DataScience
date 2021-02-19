@@ -10,7 +10,7 @@
 |---|---|
 |Mendeley Data|https://data.mendeley.com/|
 |Kaggle Data|https://www.kaggle.com/data|
-|Paper With Code Datasets|https://paperswithcode.com/datasets?mod=time-series&page=1|
+|Paper With Code Datasets|https://paperswithcode.com/datasets|
 |UC Irvine Machine Learning Repository|http://archive.ics.uci.edu/ml/index.php|
 |Carnegie Mellon University :: ML and AI: Find Datasets|https://guides.library.cmu.edu/machine-learning/datasets|
 |VisualData Discovery|https://www.visualdata.io/discovery|
@@ -28,8 +28,6 @@
 |Korea Local Data|https://www.localdata.go.kr|
 |Micro Data Integrated Service|https://mdis.kostat.go.kr|
 |Seoul Public Data Portal|https://data.seoul.go.kr/dataList/datasetList.do|
-|ImageNet|http://image-net.org|
-|MNIST|http://yann.lecun.com/exdb/mnist/|
 |Mozilla's Common Voice|https://commonvoice.mozilla.org/ko/datasets|
 |Korea Question and Answering Dataet (KorQuAD) 2.0|https://korquad.github.io|
 |Standford Question and Answering Dataet (SQuAD 2.0)|https://rajpurkar.github.io/SQuAD-explorer/|
