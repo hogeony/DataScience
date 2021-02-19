@@ -12,6 +12,8 @@
 |Kaggle Data|https://www.kaggle.com/data|
 |Paper With Code Datasets|https://paperswithcode.com/datasets?mod=time-series&page=1|
 |UC Irvine Machine Learning Repository|http://archive.ics.uci.edu/ml/index.php|
+|Carnegie Mellon University :: ML and AI: Find Datasets|https://guides.library.cmu.edu/machine-learning/datasets|
+|VisualData Discovery|https://www.visualdata.io/discovery|
 |Datasets for Social Good Projects|https://github.com/shreyashankar/datasets-for-good|
 |Awesome Public Dataset on Github|https://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html|
 |PHM Society Data Repository|https://www.phmdata.org|
