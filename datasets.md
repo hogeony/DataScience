@@ -1,7 +1,10 @@
 |Site Name|URL|
 |---|---|
+|Top 10 Open Dataset Resources on Github|https://www.kdnuggets.com/2016/05/top-10-datasets-github.html|
 |Awesome Public Datasets|https://github.com/awesomedata/awesome-public-datasets|
 |Datasets for Social Good Projects|https://github.com/shreyashankar/datasets-for-good|
+|Best Public Datasets for Machine Learning and Data Science|https://pub.towardsai.net/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f|
+|Awesome Public Dataset on Github|https://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html|
 |Mendeley Data|https://data.mendeley.com/|
 |Kaggle Data|https://www.kaggle.com/data|
 |Paper With Code Datasets|https://paperswithcode.com/datasets?mod=time-series&page=1|
@@ -23,3 +26,5 @@
 |Mozilla's Common Voice|https://commonvoice.mozilla.org/ko/datasets|
 |Korea Question and Answering Dataet (KorQuAD) 2.0|https://korquad.github.io|
 |Standford Question and Answering Dataet (SQuAD 2.0)|https://rajpurkar.github.io/SQuAD-explorer/|
+
+# Dataset Finders
