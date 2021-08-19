@@ -29,3 +29,14 @@ r – append or update files or directories to existing archive file.
 # manage permission
 sudo chown <user>:<group> filename
 sudo chown <user>:<group> *
+  
+# user
+cat /etc/passwd
+cut -f1 -d: /etc/passwd
+grep /bin/bash /etc/passwd
+grep /bin/bash /etc/passwd | cut -f1 -d:
+  
+sudo adduser <new user>
+sudo usermod -aG sudo <new user>
+sudo deluser <new user>
+
