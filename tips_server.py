@@ -40,3 +40,6 @@ sudo adduser <new user>
 sudo usermod -aG sudo <new user>
 sudo deluser <new user>
 
+# miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
