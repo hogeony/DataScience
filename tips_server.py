@@ -43,7 +43,7 @@ sudo deluser <new user>
 # miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 source ~/.bashrc
+conda clean --all
 
 # install liabraries for pytorch
 conda install matplotlib seaborn opencv open3d scikit-learn pytorch torchvision torchaudio -c conda-forge -c open3d-admin
-conda clean --all
