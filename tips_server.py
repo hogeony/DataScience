@@ -46,3 +46,4 @@ source ~/.bashrc
 
 # install liabraries for pytorch
 conda install matplotlib seaborn opencv open3d scikit-learn pytorch torchvision torchaudio -c conda-forge -c open3d-admin
+conda clean --all
