@@ -16,3 +16,13 @@ git pcmp "msg"
 
 # save credential information (id, password) for pulling, pushing
 git config credential.helper store
+
+# ERROR => fatal: The remote end hung up unexpectedly
+git config --global http.postBuffer 104857600
+nano ~/.gitconfig
+--- it the error is not resolved, add the options below:
+git config --global core.packedGitLimit 512m
+git config --global core.packedGitWindowSize 512m
+git config --global pack.deltaCacheSize 2047m
+git config --global pack.packSizeLimit 2047m
+git config --global pack.windowMemory 2047m
