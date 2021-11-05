@@ -27,7 +27,7 @@ git config --global http.postBuffer 104857600
 
 nano ~/.gitconfig
 
-    ### *it the error is not resolved, add the options below:*
+#### *it the error is not resolved, add the options below:*
     git config --global core.packedGitLimit 512m
 
     git config --global core.packedGitWindowSize 512m
@@ -39,7 +39,7 @@ nano ~/.gitconfig
     git config --global pack.windowMemory 2047m
 
 ### credential (login via public access token)
-    #### Set
+#### Set
     git config credential.helper store
-    #### Unset
+#### Unset
     git config --unset credential.helper
