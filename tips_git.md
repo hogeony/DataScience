@@ -40,6 +40,6 @@ nano ~/.gitconfig
 
 ### credential (login via personal access token)
 #### Set
-    git config credential.helper store
+    git config --global credential.helper store cache
 #### Unset
     git config --unset credential.helper
