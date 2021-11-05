@@ -39,7 +39,7 @@ nano ~/.gitconfig
     git config --global pack.windowMemory 2047m
 
 ### credential (login via public access token)
-#### Set
-git config credential.helper store
-#### Unset
-git config --unset credential.helper
+    #### Set
+    git config credential.helper store
+    #### Unset
+    git config --unset credential.helper
