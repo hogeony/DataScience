@@ -43,3 +43,8 @@ nano ~/.gitconfig
     git config --global credential.helper store cache
 #### Unset
     git config --unset credential.helper
+    
+### reset
+    git log             <= show commits
+    git reset HEAD      <= reset last commit
+    git reset HEAD~10   <= reset previous 10 commits
