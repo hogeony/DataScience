@@ -35,7 +35,6 @@
 - cut -f1 -d: /etc/passwd
 - grep /bin/bash /etc/passwd
 - grep /bin/bash /etc/passwd | cut -f1 -d:
-
 - sudo adduser <new user>
 - sudo usermod -aG sudo <new user>
 - sudo deluser <new user>
@@ -49,5 +48,5 @@
 - conda install matplotlib seaborn opencv open3d scikit-learn pytorch torchvision torchaudio -c conda-forge -c open3d-admin
 
 ### kill process by grep
-- ps -ef | grep username | grep .py
-- kill -9 \`ps -ef|grep username | grep .py|awk '{print $2}'\`
+- ps -ef | grep <username> | grep .py
+- kill -9 \`ps -ef|grep <username> | grep .py|awk '{print $2}'\`
