@@ -50,4 +50,4 @@
 
 ### kill process by grep
 - ps -ef | grep username | grep .py
-- kill -9 `ps -ef|grep username | grep .py|awk '{print $2}'`
+- kill -9 \`ps -ef|grep username | grep .py|awk '{print $2}'\`
