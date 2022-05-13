@@ -50,3 +50,12 @@
 ### kill process by grep
 - ps -ef | grep (username) | grep .py
 - kill -9 \`ps -ef|grep (username) | grep .py|awk '{print $2}'\`
+
+### Opencv :: Anaconda.org
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Linux-x86_64.sh
+bash Miniconda3-py39_4.11.0-Linux-x86_64.sh
+conda install -c conda-forge tensorflow-gpu opencv scikit-learn pandas seaborn matplotlib
+conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=11.3
+conda install -c open3d-admin open3d
+
+
