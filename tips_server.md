@@ -54,6 +54,11 @@
 ### basic installation
 - wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Linux-x86_64.sh
 - bash Miniconda3-py39_4.11.0-Linux-x86_64.sh
-- conda install -c conda-forge tensorflow-gpu opencv scikit-learn pandas seaborn matplotlib
+- conda update conda
+- conda install python
+- conda update --all
 - conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=11.3
-- conda install -c open3d-admin open3d
+- conda install -c conda-forge scikit-learn pandas seaborn matplotlib
+- pip install tensorflow opencv-python open3d  python-telegram-bot
+
+### check
