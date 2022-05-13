@@ -62,3 +62,12 @@
 - pip install tensorflow opencv-python open3d  python-telegram-bot
 
 ### check
+```python
+import torch
+print(torch.cuda.is_available())
+
+import tensorflow as tf
+print(tf.config.experimental.list_logical_devices('GPU'))
+
+import cv2, open3d
+```
