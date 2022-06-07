@@ -58,9 +58,8 @@
 - conda update conda
 - conda install python
 - conda update --all
-- conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=11.3
-- conda install -c conda-forge scikit-learn pandas seaborn matplotlib
-- pip install tensorflow opencv-python open3d  python-telegram-bot
+- pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+- pip install tensorflow opencv-python open3d  python-telegram-bot scikit-learn pandas seaborn matplotlib
 
 ### check
 ```python
