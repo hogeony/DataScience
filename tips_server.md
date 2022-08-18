@@ -40,6 +40,9 @@
 - sudo usermod -aG sudo (new user)
 - sudo deluser (new user)
 
+### reset user password
+- /sbin/pam_tally2 --user (new user) --reset 
+
 ### miniconda
 - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 - source ~/.bashrc
