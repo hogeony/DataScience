@@ -9,20 +9,19 @@ div_html = """
 """
 
 # write the shared folder link
-shared_folder_link = 'https://onedrive.live.com/?authkey=XXX&id=XXXcid=XXX'
+shared_folder_link = 'https://onedrive.live.com/?authkey=XXX&id=XXX'
 
 # write download path
 path_download = os.path.join(os.getcwd(), 'download')
 ###
 
-shared_folder_link.split('?')[-1].split('&')
 params = {x.split('=')[0]: x.split('=')[1] for x in shared_folder_link.split('?')[-1].split('&')}
 for k, v in params.items():
     print(k, ':\t', v)
 
 resid_list, url_list = [], []
 for line in div_html.replace('><', '>\n<').split('\n'):
-    if params['cid'] in line:
+    if params['id'] in line:
         resid = line.split('id=')[-1].split('&')[0]
         if resid not in resid_list:
             resid_list.append(resid)
